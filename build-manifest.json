@@ -1,0 +1,453 @@
+{
+  "game": "Главный герой",
+  "date": "2026-11-02",
+  "design_archive_sha256": "24bf6644ca0ee59ec74690f87b43297c69cb022efcfab0e2f0a51daa99de132f",
+  "private_data_included": false,
+  "files": [
+    {
+      "path": "index.html",
+      "sha256": "0c2a610c82e0d2979b139c9b070769643a34f24aebba21cfd033cc91ba2fa103",
+      "bytes": 2237
+    },
+    {
+      "path": "README.md",
+      "sha256": "b72c45ff2f6c41e038f09cd336f43f6fe6c61a4f5c951cac0ead2dddb3528108",
+      "bytes": 852
+    },
+    {
+      "path": ".nojekyll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "favicon.svg",
+      "sha256": "be77fdbabe506288f0cf8f43f1ce512ae0b5bdd2dffe2e205751cbe3ac113c33",
+      "bytes": 234
+    },
+    {
+      "path": "materials/README.md",
+      "sha256": "8bdc35cc52874bedd07415942ffb70475bf1e6e3eb86ff32fd60c5a9768cd580",
+      "bytes": 2354
+    },
+    {
+      "path": "materials/manifest.json",
+      "sha256": "9d606b24662c79f62497b1c6f0ccbd63a0712eeae0607d2bd3af86b70c8da70a",
+      "bytes": 9010
+    },
+    {
+      "path": "materials/bark/color.jpg",
+      "sha256": "920fa0bed0c9d78c1d530e99795113afd532d7db746de440f4a85d7c83ed0f1a",
+      "bytes": 659592
+    },
+    {
+      "path": "materials/bark/normal.jpg",
+      "sha256": "0d5e691e8ad8bcd093a3587887fda2a6b4a948b5708a4f256f7919584c6eb857",
+      "bytes": 1015623
+    },
+    {
+      "path": "materials/bark/roughness.jpg",
+      "sha256": "68125592de36e15bae7aa6db85c4d135aeb7e5653199ba226483a70f6d69837d",
+      "bytes": 337946
+    },
+    {
+      "path": "materials/wood/color.jpg",
+      "sha256": "1273876d6f92fb1a1d29c1bb28f548a9256154187531e84f993b56e347f1d17b",
+      "bytes": 489587
+    },
+    {
+      "path": "materials/wood/normal.jpg",
+      "sha256": "6c85ff0a410a2993cc09d25859d7d735bc05e9f15dc51393d2e58aa2ce8a0916",
+      "bytes": 705118
+    },
+    {
+      "path": "materials/wood/roughness.jpg",
+      "sha256": "c1b1a7e3266a082d66f1c786a28a05674227158684d655e42ab2420e47ae746e",
+      "bytes": 233217
+    },
+    {
+      "path": "materials/sky/environment.hdr",
+      "sha256": "206c67e3a1b992282821cf06662bdd69bbb4915c1c4444a66338a40d6a7d4e34",
+      "bytes": 1173154
+    },
+    {
+      "path": "materials/paving/color.jpg",
+      "sha256": "b0662eaec38a2056ef00abc66d1a0e8da421d704ed3ff8f9e268ad4c7b2aa58c",
+      "bytes": 575440
+    },
+    {
+      "path": "materials/paving/normal.jpg",
+      "sha256": "a5c71dffb3f25b8b33cfeeb1bfc2fc0f158b8ebc04f3987d68f64343868d1065",
+      "bytes": 781854
+    },
+    {
+      "path": "materials/paving/roughness.jpg",
+      "sha256": "2f62e01aa5c2051cd700c20c21ed791ee2d4ab88274b5724dfd852c4bd2264dc",
+      "bytes": 416114
+    },
+    {
+      "path": "materials/brick/color.jpg",
+      "sha256": "6a1233ec0186703de830354d89f122991e61e67fb67e0846c7eaf6c5aefea902",
+      "bytes": 574381
+    },
+    {
+      "path": "materials/brick/normal.jpg",
+      "sha256": "8afbe3919308b168a6b7235fe7b930f670cfffa1a34de39ee790d55c9d7bda09",
+      "bytes": 295279
+    },
+    {
+      "path": "materials/brick/roughness.jpg",
+      "sha256": "a23342b02e6c5af106aaece16130aa9153a801cb1a84d5f3e0d06ce248677f38",
+      "bytes": 211093
+    },
+    {
+      "path": "materials/plaster/color.jpg",
+      "sha256": "0a316ffd3f953a902325c06afb5a5863bbf71d13a353f9d85378562adca79603",
+      "bytes": 436395
+    },
+    {
+      "path": "materials/plaster/normal.jpg",
+      "sha256": "0f1b4ea0c4707ea133f133c020923bddd8610a43a153281dad15d49f39ad9624",
+      "bytes": 960241
+    },
+    {
+      "path": "materials/plaster/roughness.jpg",
+      "sha256": "6c317c0e647b02259601690bd33501bbc825858c6d1715cd0f8f46a5b51f6db4",
+      "bytes": 173930
+    },
+    {
+      "path": "vision/vision_wasm_nosimd_internal.wasm",
+      "sha256": "ed5e5e5812490bd90d6a440290845ff9e4c516f696847a28a0c0e0573470d469",
+      "bytes": 12915401
+    },
+    {
+      "path": "vision/vision_wasm_nosimd_internal.js",
+      "sha256": "e9b2b799e0f1078f5538b300a57835b823742c37e2646308a03f0f25b39fdcdc",
+      "bytes": 333931
+    },
+    {
+      "path": "vision/vision_wasm_module_internal.wasm",
+      "sha256": "2e326b9d9584ac22e230c263f47e6fe694a7df1ce22a8546c72df0e5c0fc1066",
+      "bytes": 14466676
+    },
+    {
+      "path": "vision/face_landmarker.task",
+      "sha256": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+      "bytes": 3758596
+    },
+    {
+      "path": "vision/LICENSE-APACHE-2.0.txt",
+      "sha256": "8707eef0533987efc5b155d64761eeb6e20793f50b9bd1a68dad1cf4719d0ed8",
+      "bytes": 12331
+    },
+    {
+      "path": "vision/vision_wasm_internal.wasm",
+      "sha256": "bcc13df22d3d69ec8cbe8e280989356d844ae00f4523eb82072d2484f44134dc",
+      "bytes": 14466654
+    },
+    {
+      "path": "vision/vision_wasm_module_internal.js",
+      "sha256": "60384c9014750321c0fc1d489b3329e5eaed0fcf3c328d404ecb1a6c75e89d17",
+      "bytes": 334166
+    },
+    {
+      "path": "vision/vision_wasm_internal.js",
+      "sha256": "85c1a342be70427987f900969a5f26e17557351111364e6585e97fb03e93e108",
+      "bytes": 334128
+    },
+    {
+      "path": "examples/memory-tickets.svg",
+      "sha256": "7c0c02000bccec19f0114dcdcd390123aec9ba5e2fc92c56b59f5b3c3f085c4f",
+      "bytes": 4981
+    },
+    {
+      "path": "examples/fictional-portrait.webp",
+      "sha256": "900bf48e199d2a903563cbcc987ac193f3bfa26599f1ddcd35bfe0c2490a21c7",
+      "bytes": 60506
+    },
+    {
+      "path": "fonts/Literata-Italic.ttf",
+      "sha256": "d483dfaeba9cbf4ce71d32a52ee65df82f7e35b15fff8d1011cdb242d1fcd465",
+      "bytes": 902728
+    },
+    {
+      "path": "fonts/Literata-Italic.woff2",
+      "sha256": "f9344446802e3febb8b3243a32609200f8ec0be589dcd7a91b508145b8a90d45",
+      "bytes": 234228
+    },
+    {
+      "path": "fonts/Literata.woff2",
+      "sha256": "38adf30dc44a6b5cf63d41365efd9e1e4bdb8c3a9347e197dd75f06560d577e1",
+      "bytes": 240848
+    },
+    {
+      "path": "fonts/Golos-OFL.txt",
+      "sha256": "ff532f9e8789f09a9fdffc3c0954eedfb0a48be77b2e2eb90f5f82e4f347f50c",
+      "bytes": 4394
+    },
+    {
+      "path": "fonts/Literata-OFL.txt",
+      "sha256": "8742963604cd89dc81437811a850018fc03b2bfad686d7422c8235967c87614e",
+      "bytes": 4389
+    },
+    {
+      "path": "fonts/Golos.woff2",
+      "sha256": "8ee8f864ff4021de106c60d3836fd0524c382a804b15d9d4a919dbb54d0a9b6f",
+      "bytes": 59928
+    },
+    {
+      "path": "fonts/Literata.ttf",
+      "sha256": "b41138c9373112f32abb589cc22e8674b06ed4048b0c513be922bdd26f274440",
+      "bytes": 955132
+    },
+    {
+      "path": "fonts/Golos.ttf",
+      "sha256": "17bb58fb69aec2dfb047a2ebf52534023e9b688c97a6b7ac795b0a72912c2063",
+      "bytes": 184292
+    },
+    {
+      "path": "fonts/fonts.css",
+      "sha256": "e2c12512f09cb6cf3c8d400ff27ee5173d5eeaf5d6d8f8e8f3de9e34b407f4db",
+      "bytes": 1165
+    },
+    {
+      "path": "assets/index-CEYzWPGG.css",
+      "sha256": "e3b49f7767c026620622fd40d8a62e7fb5195224058b0195f80816cfc4df4d52",
+      "bytes": 66077
+    },
+    {
+      "path": "assets/navigation-CYeMGK8J.js",
+      "sha256": "366d2e208dd422d4b4ce50a4a4c2b665544eba2fc822b49f74a4eb97ce6b2892",
+      "bytes": 3439
+    },
+    {
+      "path": "assets/Game-BwHhL-zI.css",
+      "sha256": "98c641f3f60797ae4692cf5716686b4c48df5ccc8a2180b0b8ab7bf6bf4ee310",
+      "bytes": 11890
+    },
+    {
+      "path": "assets/MapPlace-BVfVHt58.js",
+      "sha256": "1129ee8b146baacb09acacae857184c553f4324e99a12ffc8fb63459dce3ce92",
+      "bytes": 1096484
+    },
+    {
+      "path": "assets/vision_bundle-B9efVf8h.js",
+      "sha256": "ae2a0c4adba87cb89283b6a57f48c8320db3cfc955e86c35dca3683e50023627",
+      "bytes": 155897
+    },
+    {
+      "path": "assets/Editor-CCSmU5tn.js",
+      "sha256": "f8d34631defdb43186758c74dfd685dec5898c1c071a86432b5c20789ba5cb77",
+      "bytes": 114419
+    },
+    {
+      "path": "assets/Trial-CkF5FK7G.js",
+      "sha256": "13caefa4e92953adf73e748fab5d50794798c827ae7e1e8c655f1a39d632444d",
+      "bytes": 3984
+    },
+    {
+      "path": "assets/arrow-left-s4L7bqVH.js",
+      "sha256": "5debc9f4d101dc96a54f002d277353dbd625492bf1d4179c6e23c5f78870937d",
+      "bytes": 333
+    },
+    {
+      "path": "assets/maplibre-gl-worker-CMkqA50c.mjs",
+      "sha256": "0bf06492bdb7ba3d4132b78e435621bfba60d5250967991c02b1a73affea8cd5",
+      "bytes": 519372
+    },
+    {
+      "path": "assets/index-D9xZJ6Fk.js",
+      "sha256": "d9f284881f45117223ca4a4673efba241dd4a5b1047302fd1de3ccda1206f2d4",
+      "bytes": 419358
+    },
+    {
+      "path": "assets/route-PciYiMuc.js",
+      "sha256": "5ed27f0381d7d4c321e34f62d007bf2911a85df3675f3b9b705a8752c81af1f3",
+      "bytes": 3324
+    },
+    {
+      "path": "assets/MapPlace-AgMWWGR8.css",
+      "sha256": "32cd2daf18eba5cfb9aff8cef3cebb7ea29f797c1bf87ab8c57fa1b360c01f0e",
+      "bytes": 71527
+    },
+    {
+      "path": "assets/Game-C48O74Sj.js",
+      "sha256": "1a03b97dcea4c801909b91bdc5c424cfec2db61653975b92e2ff62251dc726b0",
+      "bytes": 35692
+    },
+    {
+      "path": "assets/AvatarPreview-vaq9ppPL.js",
+      "sha256": "a4645b09d2d9ac49b5ed75a7fd7b80b02f8a4b643a0b3cec42920469f562a018",
+      "bytes": 16472
+    },
+    {
+      "path": "assets/World-DhHt4-J6.js",
+      "sha256": "eec8bd444ce3cce74187942a8ecfc5822036a28b3abb7d4026c52ef2a857eb4d",
+      "bytes": 1397675
+    },
+    {
+      "path": "assets/humans/masculine.settings.json",
+      "sha256": "949f4340ec94b18ada97bd346cd626f6239412c1de56835b4f716c2cc96b681c",
+      "bytes": 1089
+    },
+    {
+      "path": "assets/humans/feminine.glb",
+      "sha256": "6966d4a6e8df5f682a8785b632cd108dfcd15fa8c429238e48f4f1ec94299c83",
+      "bytes": 3990212
+    },
+    {
+      "path": "assets/humans/feminine-hair-bob.glb",
+      "sha256": "149cc4ae11a7303f67742b2add6ea549b8f21097b0df87f567926b78ea950f36",
+      "bytes": 772108
+    },
+    {
+      "path": "assets/humans/masculine.glb",
+      "sha256": "221329084a45edfecf4366120098b96e9387cf9ed1aef1a9d0988ae79e4274b5",
+      "bytes": 4232596
+    },
+    {
+      "path": "assets/humans/neutral-hair-curly.glb",
+      "sha256": "c4168b051ad769186f6c217025367fe105ca7a52c928fc1f826f00e62eb1729a",
+      "bytes": 1817524
+    },
+    {
+      "path": "assets/humans/masculine-hair-short.glb",
+      "sha256": "699ef366b8985e9dcc5f869c6dea2dceb81f052bfdbde61bd6ce8adb982704fa",
+      "bytes": 1078244
+    },
+    {
+      "path": "assets/humans/neutral-hair-bob.glb",
+      "sha256": "690a92eb5f7f62f51b0dbce8686f5fbda9dd3eb5cae9d9f3441e93d071488bf4",
+      "bytes": 772108
+    },
+    {
+      "path": "assets/humans/feminine-hair-curly.glb",
+      "sha256": "be109b9ffa2ce1449b5e9da161c6e92b666845468793a7ecd3f63acfc043582f",
+      "bytes": 1817528
+    },
+    {
+      "path": "assets/humans/SOURCE-LICENSE-NOTES.md",
+      "sha256": "18af8d071bcb1cab2260263991ad49c314dc616facf7f33b0ab19bee78d4ec13",
+      "bytes": 18771
+    },
+    {
+      "path": "assets/humans/neutral.settings.json",
+      "sha256": "9d1e4d573973313c10a4c9466d561cd90e028cfc66fbef5754583d75e058350d",
+      "bytes": 1180
+    },
+    {
+      "path": "assets/humans/feminine-hair-long.glb",
+      "sha256": "4fed47259cdd10f414c5bb8214031e047f853ef577fe4ec4b573f84ba3a3e963",
+      "bytes": 1102884
+    },
+    {
+      "path": "assets/humans/README.md",
+      "sha256": "695f2c6e672e3382a0cd1be6da5b6d0e7e91cdef49cd07c72b86bbd8169a7aad",
+      "bytes": 1024
+    },
+    {
+      "path": "assets/humans/neutral-hair-short.glb",
+      "sha256": "4f841146f477758b43a69e9d08aa09d6fb54eb7ae7460084ad8e7fa57eba587f",
+      "bytes": 1078396
+    },
+    {
+      "path": "assets/humans/masculine-hair-bob.glb",
+      "sha256": "aa6abdfc1a7a422640ff1004bcd2849769cbf9adbc78388bce4f68b3ef208775",
+      "bytes": 771960
+    },
+    {
+      "path": "assets/humans/masculine-hair-long.glb",
+      "sha256": "78244cc1e8ddb84b256166faf6437ba8b1e08fa7fb3d85eaf78a88c1212da16c",
+      "bytes": 1102740
+    },
+    {
+      "path": "assets/humans/neutral.glb",
+      "sha256": "cba3e911e150f9d73602656fea59e5340f426088f11c9aab5c5f7d720704d6a2",
+      "bytes": 4153928
+    },
+    {
+      "path": "assets/humans/SOURCE-ASSET-LICENSES.json",
+      "sha256": "b18bbc7f45fe7c28bcf3b119f44f7b8425d3b4c871f99c694b181b5603f4758e",
+      "bytes": 7730
+    },
+    {
+      "path": "assets/humans/manifest.json",
+      "sha256": "ed627bafcc6651b0fdf93ac4a1a217df5ab575e13ce59ac6e3449fd79915ad74",
+      "bytes": 55374
+    },
+    {
+      "path": "assets/humans/neutral-hair-long.glb",
+      "sha256": "dcfbfaf89a21ea7e3bd1811ca217df8f9294c27f88be07a9c3d349217169725a",
+      "bytes": 1102884
+    },
+    {
+      "path": "assets/humans/masculine-hair-curly.glb",
+      "sha256": "23f8528005484cdb1b0f1427628aeaf7324552a08e805c8df81f5e4077462e26",
+      "bytes": 1817380
+    },
+    {
+      "path": "assets/humans/feminine.settings.json",
+      "sha256": "531ac2c6a19b5c37ea04adafa982c784a23483aa1959de8fed95e159a55a0ca2",
+      "bytes": 1180
+    },
+    {
+      "path": "assets/humans/feminine-hair-short.glb",
+      "sha256": "def299434c189ffaff750da5fe18711cab284a091231a8ad8042a23a1a3318ab",
+      "bytes": 1078396
+    },
+    {
+      "path": "assets/humans-next/vit_face_n.png",
+      "sha256": "4223812ccc96211f6aa3ad61da314d2295ee459e4751081c9e35a45b0c0fd6b3",
+      "bytes": 5950785
+    },
+    {
+      "path": "assets/humans-next/vit_iris.png",
+      "sha256": "e46a988b904b49db6343457215353a309dc67c19e03a6d02e00dea8fb5c51e49",
+      "bytes": 581172
+    },
+    {
+      "path": "assets/humans-next/female-clothed.glb",
+      "sha256": "6295e0a24abda10cd8d2478e567a7a7861039d624a8eefe1e55fa1fe047899d6",
+      "bytes": 19795540
+    },
+    {
+      "path": "assets/humans-next/MAKEHUMAN-CMU-LICENSE.txt",
+      "sha256": "a162297c51455256fc4fe5685cd821fcedda2f85e4a360417cf5613bf57312e0",
+      "bytes": 1105
+    },
+    {
+      "path": "assets/humans-next/manifest.json",
+      "sha256": "cbacbc8191b41b7854e58f1490cbc446bb35d517750819ee52cd0f1aa3fba70b",
+      "bytes": 4476
+    },
+    {
+      "path": "assets/humans-next/vitruvian_head.glb",
+      "sha256": "54efb42e9f3dd7e7cf3c3e86ed5298f3ba26e341d5743245cbe2621c547c5f1f",
+      "bytes": 10189832
+    },
+    {
+      "path": "assets/humans-next/vit_mouth.png",
+      "sha256": "2e4d0f7e5a2f28613ed54bbd07fa2300b62a6c2b98dc7c1f6f0ac5ce5fe8da64",
+      "bytes": 3018410
+    },
+    {
+      "path": "assets/humans-next/vit_sclera.png",
+      "sha256": "72bcb85327cf67ef0b0b35a8b6822293bc2059f9f11314a9aebffc95f31e08a7",
+      "bytes": 965536
+    },
+    {
+      "path": "assets/humans-next/VITRUVIAN-NOTICE.md",
+      "sha256": "1f0203c80876f83f1a83ca397ff9919bfa1705bbaf95caa86d0cf6699d68326d",
+      "bytes": 1628
+    },
+    {
+      "path": "assets/humans-next/vit_face_rough.png",
+      "sha256": "f9911cd24f8aa5c81a3fd32ac977d45b36bcf2f7404b11749aca1024fca41400",
+      "bytes": 10064534
+    },
+    {
+      "path": "assets/humans-next/vit_face_bc.png",
+      "sha256": "7f5314694e267a7fb7270eab6159bb4a988220e13060cfabd7194df14a164a6d",
+      "bytes": 7835475
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "provider": "Poly Haven",
+  "assetLicense": "CC0-1.0",
+  "licenseURL": "https://polyhaven.com/license",
+  "apiTerms": "https://github.com/Poly-Haven/Public-API/blob/master/ToS.md",
+  "downloadedAt": "2026-11-01",
+  "runtimeAPI": false,
+  "assets": {
+    "paving": {
+      "id": "cobblestone_floor_04",
+      "kind": "paving",
+      "source": "https://polyhaven.com/a/cobblestone_floor_04",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "name": "Cobblestone Floor 04",
+      "files": [
+        {
+          "path": "/materials/paving/color.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/cobblestone_floor_04/cobblestone_floor_04_diff_1k.jpg",
+          "bytes": 575440,
+          "md5": "b57737026948ed8b4fce9b0cb3c91e81",
+          "sha256": "b0662eaec38a2056ef00abc66d1a0e8da421d704ed3ff8f9e268ad4c7b2aa58c",
+          "resolution": "1k",
+          "role": "color"
+        },
+        {
+          "path": "/materials/paving/normal.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/cobblestone_floor_04/cobblestone_floor_04_nor_gl_1k.jpg",
+          "bytes": 781854,
+          "md5": "583a0f00ea8cb54ed38265ff2db6f022",
+          "sha256": "a5c71dffb3f25b8b33cfeeb1bfc2fc0f158b8ebc04f3987d68f64343868d1065",
+          "resolution": "1k",
+          "role": "normal"
+        },
+        {
+          "path": "/materials/paving/roughness.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/cobblestone_floor_04/cobblestone_floor_04_rough_1k.jpg",
+          "bytes": 416114,
+          "md5": "a3a7d7660d212d8d59058451116eae44",
+          "sha256": "2f62e01aa5c2051cd700c20c21ed791ee2d4ab88274b5724dfd852c4bd2264dc",
+          "resolution": "1k",
+          "role": "roughness"
+        }
+      ],
+      "dimensions": [
+        1500,
+        1500
+      ],
+      "scale": "1.5M x 1.5M"
+    },
+    "plaster": {
+      "id": "plastered_wall_02",
+      "kind": "plaster",
+      "source": "https://polyhaven.com/a/plastered_wall_02",
+      "authors": {
+        "Charlotte Baglioni": "All"
+      },
+      "name": "Plastered Wall 02",
+      "files": [
+        {
+          "path": "/materials/plaster/color.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/plastered_wall_02/plastered_wall_02_diff_1k.jpg",
+          "bytes": 436395,
+          "md5": "3ca0d02e87ad5c6eb21efa4b05b7748e",
+          "sha256": "0a316ffd3f953a902325c06afb5a5863bbf71d13a353f9d85378562adca79603",
+          "resolution": "1k",
+          "role": "color"
+        },
+        {
+          "path": "/materials/plaster/normal.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/plastered_wall_02/plastered_wall_02_nor_gl_1k.jpg",
+          "bytes": 960241,
+          "md5": "5419137dd937f95a849b884258fb8bb5",
+          "sha256": "0f1b4ea0c4707ea133f133c020923bddd8610a43a153281dad15d49f39ad9624",
+          "resolution": "1k",
+          "role": "normal"
+        },
+        {
+          "path": "/materials/plaster/roughness.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/plastered_wall_02/plastered_wall_02_rough_1k.jpg",
+          "bytes": 173930,
+          "md5": "2d4a4a40491eb5a115c086bb65aba32c",
+          "sha256": "6c317c0e647b02259601690bd33501bbc825858c6d1715cd0f8f46a5b51f6db4",
+          "resolution": "1k",
+          "role": "roughness"
+        }
+      ],
+      "dimensions": [
+        2229.999542236328,
+        2229.999542236328
+      ]
+    },
+    "brick": {
+      "id": "brick_wall_001",
+      "kind": "brick",
+      "source": "https://polyhaven.com/a/brick_wall_001",
+      "authors": {
+        "Rob Tuytel": "Processing",
+        "Dimitrios Savva": "Photography"
+      },
+      "name": "Brick Wall 001",
+      "files": [
+        {
+          "path": "/materials/brick/color.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/brick_wall_001/brick_wall_001_diffuse_1k.jpg",
+          "bytes": 574381,
+          "md5": "955d2d4500eb549be0f2873305782798",
+          "sha256": "6a1233ec0186703de830354d89f122991e61e67fb67e0846c7eaf6c5aefea902",
+          "resolution": "1k",
+          "role": "color"
+        },
+        {
+          "path": "/materials/brick/normal.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/brick_wall_001/brick_wall_001_nor_gl_1k.jpg",
+          "bytes": 295279,
+          "md5": "be151875ed0897fc716aeef6daac8bd5",
+          "sha256": "8afbe3919308b168a6b7235fe7b930f670cfffa1a34de39ee790d55c9d7bda09",
+          "resolution": "1k",
+          "role": "normal"
+        },
+        {
+          "path": "/materials/brick/roughness.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/brick_wall_001/brick_wall_001_rough_1k.jpg",
+          "bytes": 211093,
+          "md5": "618ceca60a4321aecc6d61eebe53d551",
+          "sha256": "a23342b02e6c5af106aaece16130aa9153a801cb1a84d5f3e0d06ce248677f38",
+          "resolution": "1k",
+          "role": "roughness"
+        }
+      ],
+      "dimensions": [
+        3000,
+        3000
+      ],
+      "scale": "1.5x1.5"
+    },
+    "wood": {
+      "id": "wooden_planks",
+      "kind": "wood",
+      "source": "https://polyhaven.com/a/wooden_planks",
+      "authors": {
+        "Dario Barresi": "Processing",
+        "Charlotte Baglioni": "Photography"
+      },
+      "name": "Wooden Planks",
+      "files": [
+        {
+          "path": "/materials/wood/color.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/wooden_planks/wooden_planks_diff_1k.jpg",
+          "bytes": 489587,
+          "md5": "045a70f787fcb4b60ee5c9878a9bd674",
+          "sha256": "1273876d6f92fb1a1d29c1bb28f548a9256154187531e84f993b56e347f1d17b",
+          "resolution": "1k",
+          "role": "color"
+        },
+        {
+          "path": "/materials/wood/normal.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/wooden_planks/wooden_planks_nor_gl_1k.jpg",
+          "bytes": 705118,
+          "md5": "03206d820a026239db91a1ff3d8c589d",
+          "sha256": "6c85ff0a410a2993cc09d25859d7d735bc05e9f15dc51393d2e58aa2ce8a0916",
+          "resolution": "1k",
+          "role": "normal"
+        },
+        {
+          "path": "/materials/wood/roughness.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/wooden_planks/wooden_planks_rough_1k.jpg",
+          "bytes": 233217,
+          "md5": "006e1ad8b5a59e783c25b3b36c3a9e9b",
+          "sha256": "c1b1a7e3266a082d66f1c786a28a05674227158684d655e42ab2420e47ae746e",
+          "resolution": "1k",
+          "role": "roughness"
+        }
+      ],
+      "dimensions": [
+        2000,
+        2000
+      ]
+    },
+    "sky": {
+      "id": "kloppenheim_06_puresky",
+      "kind": "sky",
+      "source": "https://polyhaven.com/a/kloppenheim_06_puresky",
+      "authors": {
+        "Greg Zaal": "Original",
+        "Jarod Guest": "Sky edits"
+      },
+      "name": "Kloppenheim 06 (Pure Sky)",
+      "files": [
+        {
+          "path": "/materials/sky/environment.hdr",
+          "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/kloppenheim_06_puresky_1k.hdr",
+          "bytes": 1173154,
+          "md5": "995d68b1656f26452572645c0ffe898b",
+          "sha256": "206c67e3a1b992282821cf06662bdd69bbb4915c1c4444a66338a40d6a7d4e34",
+          "resolution": "1k",
+          "role": "environment"
+        }
+      ]
+    },
+    "bark": {
+      "id": "bark_brown_02",
+      "kind": "bark",
+      "source": "https://polyhaven.com/a/bark_brown_02",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "name": "Bark Brown 02",
+      "files": [
+        {
+          "path": "/materials/bark/color.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/bark_brown_02/bark_brown_02_diff_1k.jpg",
+          "bytes": 659592,
+          "md5": "6669cca520594bdca19f94084984ab72",
+          "sha256": "920fa0bed0c9d78c1d530e99795113afd532d7db746de440f4a85d7c83ed0f1a",
+          "resolution": "1k",
+          "role": "color"
+        },
+        {
+          "path": "/materials/bark/normal.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/bark_brown_02/bark_brown_02_nor_gl_1k.jpg",
+          "bytes": 1015623,
+          "md5": "1cad3fe0349a44df2d4d1c2859c79920",
+          "sha256": "0d5e691e8ad8bcd093a3587887fda2a6b4a948b5708a4f256f7919584c6eb857",
+          "resolution": "1k",
+          "role": "normal"
+        },
+        {
+          "path": "/materials/bark/roughness.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/bark_brown_02/bark_brown_02_rough_1k.jpg",
+          "bytes": 337946,
+          "md5": "bbcde696e5b9418cdcb2abe638965417",
+          "sha256": "68125592de36e15bae7aa6db85c4d135aeb7e5653199ba226483a70f6d69837d",
+          "resolution": "1k",
+          "role": "roughness"
+        }
+      ],
+      "dimensions": [
+        999.9990463256836,
+        999.998927116394
+      ]
+    }
+  }
+}

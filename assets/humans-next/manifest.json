@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "status": "QA candidate — visual acceptance rejected; not a private identity",
+  "runtime": "Three.js 0.180.0; no external runtime services",
+  "activation": "qa=1&human=next; feminine body preset only",
+  "sources": [
+    {
+      "role": "head, facial morphs, skin/mouth/eyes textures",
+      "repository": "https://github.com/ibrews/VitruvianGodot",
+      "commit": "8b643c3e72f39cb2f775ddeeac1612f70a9e1606",
+      "paths": [
+        "godot_project/vitruvian_head.glb",
+        "godot_project/vit_face_bc.png",
+        "godot_project/vit_face_n.png",
+        "godot_project/vit_face_rough.png",
+        "godot_project/vit_mouth.png",
+        "godot_project/vit_iris.png",
+        "godot_project/vit_sclera.png"
+      ],
+      "license": "CC0 1.0; see VITRUVIAN-NOTICE.md",
+      "authors": [
+        "Sean Buckley",
+        "Olaf Delgado-Friedrichs",
+        "CharMorph contributors listed in NOTICE"
+      ]
+    },
+    {
+      "role": "textured dressed adult body, skeleton, baked animation",
+      "repository": "https://github.com/olatunde85/3d-gen",
+      "commit": "2e5724de1b12444bf0c2454555fedfc976a4274c",
+      "sourceAssets": "https://ara3dgen.com/assets/",
+      "generatorLicense": "MIT (generator not required at runtime)",
+      "assetLicense": "CC0 1.0 MakeHuman data; see MAKEHUMAN-CMU-LICENSE.txt",
+      "exportScript": "tools/human-assets/export-body-reference.ts",
+      "preset": "female_clothed: gender0, caucasian1, skin young_caucasian_female2, outfit female_casualsuit01, hair long01, high detail, adult age.51; source hair is hidden by runtime",
+      "clips": [
+        "idle",
+        "walk",
+        "run",
+        "sit_down",
+        "sit_idle",
+        "stand_up",
+        "talk"
+      ],
+      "motionCredit": "The data used in this project was obtained from mocap.cs.cmu.edu. The database was created with funding from NSF EIA-0196217.",
+      "motionRestriction": "May be used in commercially sold games; motion data may not be resold directly, including converted form."
+    }
+  ],
+  "files": [
+    {
+      "path": "MAKEHUMAN-CMU-LICENSE.txt",
+      "bytes": 1105,
+      "sha256": "a162297c51455256fc4fe5685cd821fcedda2f85e4a360417cf5613bf57312e0",
+      "license": "CC0 1.0 character data (notices describe separate tool licences)"
+    },
+    {
+      "path": "VITRUVIAN-NOTICE.md",
+      "bytes": 1628,
+      "sha256": "1f0203c80876f83f1a83ca397ff9919bfa1705bbaf95caa86d0cf6699d68326d",
+      "license": "CC0 1.0 character data (notices describe separate tool licences)"
+    },
+    {
+      "path": "female-clothed.glb",
+      "bytes": 19795540,
+      "sha256": "6295e0a24abda10cd8d2478e567a7a7861039d624a8eefe1e55fa1fe047899d6",
+      "license": "CC0 1.0 character data; CMU motion permitted within the game, no standalone motion resale"
+    },
+    {
+      "path": "vit_face_bc.png",
+      "bytes": 7835475,
+      "sha256": "7f5314694e267a7fb7270eab6159bb4a988220e13060cfabd7194df14a164a6d",
+      "license": "CC0 1.0 character data (notices describe separate tool licences)"
+    },
+    {
+      "path": "vit_face_n.png",
+      "bytes": 5950785,
+      "sha256": "4223812ccc96211f6aa3ad61da314d2295ee459e4751081c9e35a45b0c0fd6b3",
+      "license": "CC0 1.0 character data (notices describe separate tool licences)"
+    },
+    {
+      "path": "vit_face_rough.png",
+      "bytes": 10064534,
+      "sha256": "f9911cd24f8aa5c81a3fd32ac977d45b36bcf2f7404b11749aca1024fca41400",
+      "license": "CC0 1.0 character data (notices describe separate tool licences)"
+    },
+    {
+      "path": "vit_iris.png",
+      "bytes": 581172,
+      "sha256": "e46a988b904b49db6343457215353a309dc67c19e03a6d02e00dea8fb5c51e49",
+      "license": "CC0 1.0 character data (notices describe separate tool licences)"
+    },
+    {
+      "path": "vit_mouth.png",
+      "bytes": 3018410,
+      "sha256": "2e4d0f7e5a2f28613ed54bbd07fa2300b62a6c2b98dc7c1f6f0ac5ce5fe8da64",
+      "license": "CC0 1.0 character data (notices describe separate tool licences)"
+    },
+    {
+      "path": "vit_sclera.png",
+      "bytes": 965536,
+      "sha256": "72bcb85327cf67ef0b0b35a8b6822293bc2059f9f11314a9aebffc95f31e08a7",
+      "license": "CC0 1.0 character data (notices describe separate tool licences)"
+    },
+    {
+      "path": "vitruvian_head.glb",
+      "bytes": 10189832,
+      "sha256": "54efb42e9f3dd7e7cf3c3e86ed5298f3ba26e341d5743245cbe2621c547c5f1f",
+      "license": "CC0 1.0 character data (notices describe separate tool licences)"
+    }
+  ]
+}

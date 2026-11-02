@@ -1,0 +1,60 @@
+{
+  "format": "charactercreator.character",
+  "version": 1,
+  "sex": "male",
+  "values": {
+    "age": 0.02,
+    "height": 0.15,
+    "weight": 0,
+    "muscle": 0.1,
+    "proportions": 0,
+    "noseWidth": 0,
+    "noseLength": 0,
+    "noseHeight": 0,
+    "jawWidth": 0,
+    "chin": 0,
+    "cheekbones": 0,
+    "eyeSize": 0,
+    "eyeSpacing": 0,
+    "eyeTilt": 0,
+    "lips": 0,
+    "mouthWidth": 0,
+    "earSize": 0,
+    "forehead": 0,
+    "breastSize": 0.35,
+    "breastFirmness": 0.45,
+    "breastHeight": 0,
+    "breastSpacing": 0,
+    "breastProjection": 0
+  },
+  "colors": {
+    "skin": "#c99678",
+    "eyeColor": "#4a2f19",
+    "hairColor": "#30251f",
+    "browColor": "#382a22"
+  },
+  "hair": "short04",
+  "outfit": [
+    "briefs",
+    "shirt",
+    "jeans",
+    "shoes"
+  ],
+  "clothColors": {
+    "briefs": {
+      "primary": "#2b2b30",
+      "secondary": "#c9c9cc"
+    },
+    "shirt": {
+      "primary": "#35574c",
+      "secondary": "#f2f2f2"
+    },
+    "jeans": {
+      "primary": "#394455"
+    },
+    "shoes": {
+      "primary": "#6b3f24",
+      "secondary": "#d9d9d9"
+    }
+  }
+}

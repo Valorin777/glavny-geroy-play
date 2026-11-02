@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru" data-public-showcase="true">
+  <head><script>
+(()=>{
+ const base="/glavny-geroy-play", backend='https://mainhero.171-22-130-60.nip.io';
+ window.__pagesPath=()=>location.hash.startsWith('#/')?location.hash.slice(1).split('?')[0]:'/play/couple';
+ const route=(u)=>{const v=new URL(u,location.href);if(v.origin!==location.origin)return v.href;const p=v.pathname;
+  if(p===base+'/'||p.startsWith(base+'/#'))return v.href;
+  if(p==='/stories'||p.startsWith('/studio/')||p.startsWith('/gift/'))return backend+p+v.search;
+  return base+'/'+v.search+'#'+p;
+ };
+ for(const key of ['pushState','replaceState']){const original=history[key].bind(history);history[key]=(s,t,u)=>{if(u==null)return original(s,t,u);const next=route(u);if(new URL(next,location.href).origin!==location.origin){location.assign(next);return;}return original(s,t,next);};}
+ document.addEventListener('click',e=>{const a=e.target.closest?.('a[href]');if(!a||!a.getAttribute('href').startsWith('/'))return;e.preventDefault();const next=route(a.href);location.assign(next);if(new URL(next,location.href).origin===location.origin)location.reload();});
+})();
+</script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f5f0e8" />
+    <meta name="robots" content="noindex,nofollow" />
+    <link rel="icon" type="image/svg+xml" href="/glavny-geroy-play/favicon.svg" />
+    <title>Главный герой — игра по вашим воспоминаниям</title>
+    <meta name="description" content="Пройдите вымышленную 3D-историю в браузере. В мастерской можно собрать личный подарок из знакомых мест, голосов и памятных вещей." />
+    <script type="module" crossorigin src="/glavny-geroy-play/assets/index-D9xZJ6Fk.js"></script>
+    <link rel="stylesheet" crossorigin href="/glavny-geroy-play/assets/index-CEYzWPGG.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>Чтобы открыть игру и мастерскую, включите JavaScript в браузере.</noscript>
+  </body>
+</html>
